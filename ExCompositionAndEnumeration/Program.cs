@@ -47,6 +47,8 @@ namespace ExCompositionAndEnumeration
             Console.WriteLine($"Name: {worker.Name}"); 
             Console.WriteLine($"Department: {worker.Department.Name}");
             Console.WriteLine($"Income for {monthAndYear.Month}/{monthAndYear.Year}: ${resultIncome.ToString("F2", CultureInfo.InvariantCulture)}");
+
+            Console.WriteLine("Testando commit no git e subindo para o github!");
         }
     }
 }
